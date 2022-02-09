@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div>
-      <nav class="flex bg-white shadow dark:bg-gray-800">
+      <nav class="flex bg-white shadow dark:bg-gray-800 hidden sm:flex">
         <div class="flex ml-0 mr-1 justify-center p-2.5">
           <a
             href="#"
@@ -92,6 +92,98 @@ function Header() {
             </svg>
           </a>
         </div>
+      </nav>
+
+      {/* <!-- menu mobile --> */}
+      <nav class="fixed bottom-0 inset-x-0 bg-blue-100 flex justify-between text-sm text-blue-900 uppercase font-mono sm:hidden">
+        <a
+          href="#"
+          class="w-full block py-5 px-3 text-center hover:bg-blue-200 hover:text-blue-800 transition duration-300"
+        >
+          <svg
+            class="w-6 h-6 mb-2 mx-auto"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path
+              fill="#fff"
+              d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+            />
+          </svg>
+          Home
+        </a>
+
+        <a
+          href="#"
+          class="w-full block py-5 px-3 text-center hover:bg-blue-200 hover:text-blue-800"
+        >
+          <svg
+            class="w-6 h-6 mb-2 mx-auto"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+            />
+          </svg>
+          Skills
+        </a>
+
+        <a
+          href="#"
+          class="w-full block py-5 px-3 text-center hover:bg-blue-200 hover:text-blue-800"
+        >
+          <svg
+            class="w-6 h-6 mb-2 mx-auto"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9.484 15.696l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm0-5l-.711-.696-2.552 2.607-1.539-1.452-.698.709 2.25 2.136 3.25-3.304zm10.516 11.304h-8v1h8v-1zm0-5h-8v1h8v-1zm0-5h-8v1h8v-1zm4-5h-24v20h24v-20zm-1 19h-22v-18h22v18z"
+            />
+          </svg>
+          Projects
+        </a>
+
+        <a
+          href="#"
+          class="w-full block py-5 px-3 text-center hover:bg-blue-200 hover:text-blue-800"
+        >
+          <svg
+            class="w-6 h-6 mb-2 mx-auto"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"
+            />
+          </svg>
+          Contact
+        </a>
       </nav>
     </div>
   );
