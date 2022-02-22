@@ -11,3 +11,8 @@
 .strokeTest {
     -webkit-text-stroke: 2px #E5C061;
 }
+
+.list-custom{
+  list-style-image: url(./assets/images/right-arrow-next-svgrepo-com\ \(1\).svg);
+  font-size: 1.10rem;
+}
