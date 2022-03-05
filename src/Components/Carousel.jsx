@@ -33,12 +33,14 @@ function Carousel() {
             <img class="w-screen h-68" src={ejobs} alt="" />
           </div>
           <div class="p-12 text-center">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center md:text-3xl">
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center md:text-4xl">
               Ejobs
             </h5>
             <p class="my-3 font-normal text-base text-gray-700 dark:text-gray-400 text-center md:text-lg">
-              Site para busca de empregos, tanto de vagas nacionais e
-              intrernacionais
+              Site para busca de empregos.
+            </p>
+            <p class="my-3 font-normal text-sm text-violet-600 text-center md:text-lg">
+              #HTML #CSS #Bootstrap #Javascript
             </p>
             <a href="https://github.com/walaceborges/adzuna" target="_blank">
               <button
@@ -66,12 +68,15 @@ function Carousel() {
             <img class="w-screen h-68" src={construction} alt="" />
           </div>
           <div class="p-12 text-center">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center md:text-3xl">
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center md:text-4xl">
               Em construção
             </h5>
             <p class="my-3 font-normal text-base text-gray-700 dark:text-gray-400 text-center md:text-lg">
               O desenvolvedor me disse: Essa aplicação está quase pronta,
               lançamento em breve!
+            </p>
+            <p class="my-3 font-normal text-sm text-violet-600 text-center md:text-lg">
+              # # # #
             </p>
             <button
               type="button"
@@ -96,12 +101,15 @@ function Carousel() {
             <img class="w-screen h-68" src={construction} alt="" />
           </div>
           <div class="p-12 text-center">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center md:text-3xl">
+            <h5 class="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center md:text-4xl">
               Em construção
             </h5>
             <p class="my-3 font-normal text-base text-gray-700 dark:text-gray-400 text-center md:text-lg">
               O desenvolvedor me disse: Essa aplicação está quase pronta,
               lançamento em breve!
+            </p>
+            <p class="my-3 font-normal text-sm text-violet-600 text-center md:text-lg">
+              # # # #
             </p>
             <button
               type="button"
