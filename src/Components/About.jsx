@@ -10,12 +10,12 @@ function About() {
     <div className='w-screen mt-8 mb-8 px-5 md:h-full md:w-full md:pt-28 md:pb-14'>
       <div className='about-container md:flex md:justify-center md:w-11/11'>
         <div className='md:flex md:flex-col md:w-5/12 md:mr-40'>
-        <div className='flex items-center justify-between'>
-          <h2 className='text-xl font-semibold whitespace-nowrap pr-3 text-[#ED254E] md:text-2xl'>
-            About Me
-          </h2>
-          <hr className='w-2/3 border-separate border-gray-800 md:w-11/12'></hr>
-        </div>
+          <div className='flex items-center justify-between'>
+            <h2 className='text-xl font-semibold whitespace-nowrap pr-3 text-[#ED254E] md:text-2xl'>
+              About Me
+            </h2>
+            <hr className='w-2/3 border-separate border-gray-800 md:w-11/12'></hr>
+          </div>
           <div className='pt-10 text-sm text-justify md:text-base'>
             <p className=''>
             Olá, meu nome é <b>Walace</b> e gosto de desenvolver experiencias para o usuario. Meu interesse em desenvolvimento web começou em 2019, quando comecei a pesquisar como eram feitas as estruturas de paginas na internet, desde então, comecei a estudar sozinho <i>HTML e CSS</i> e logo após decidi cursar minha primeira faculdade na área de tecnologia
