@@ -7,7 +7,7 @@ import SkillsList from './SkillsList';
 
 function About() {
   return (
-    <div className='w-screen mt-8 mb-8 px-5 md:h-full md:w-full md:pt-28 md:pb-14'>
+    <div id='about' className='w-screen mt-8 mb-8 px-5 md:h-full md:w-full md:pt-28 md:pb-14'>
       <div className='about-container md:flex md:justify-center md:w-11/11'>
         <div className='md:flex md:flex-col md:w-5/12 md:mr-40'>
           <div className='flex items-center justify-between'>

@@ -4,8 +4,8 @@ function Contact() {
   return (
     <div className="w-screen md:h-full md:w-full flex flex-col py-8 md:pt-28">
       <div className="md:w-11/11 ">
-        <div className="flex items-center justify-center md:px-96 -mx-3">
-          <h2 className="text-xl font-semibold whitespace-nowrap pr-3 text-[#ED254E] md:text-2xl">
+        <div className="flex items-center justify-center md:px-96">
+          <h2 id='contact' className="text-xl font-semibold whitespace-nowrap pr-3 text-[#ED254E] md:text-2xl">
             Contact Me
           </h2>
           <hr className="w-48 border-separate border-gray-800 md:w-8/12"></hr>
