@@ -23,7 +23,7 @@ function Contact() {
         <div className="flex justify-center pt-10">
           <form
             target="_blank"
-            action="https://formsubmit.co/ca32b4dd6f1ba09172d64ddf5a2ade6a"
+            action="https://formsubmit.co/walacewab@gmail.com"
             method="POST"
             className="w-80 md:w-full max-w-2xl md:max-w-4xl"
           >
@@ -39,6 +39,7 @@ function Contact() {
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                   id="grid-first-name"
                   type="text"
+                  name="name"
                   placeholder="Francis"
                   required
                 />
@@ -57,6 +58,7 @@ function Contact() {
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="grid-last-name"
                   type="text"
+                  name="sobrenome"
                   placeholder="Cutrim"
                   required
                 />
@@ -73,6 +75,7 @@ function Contact() {
                 <input
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="email"
+                  name="email"
                   type="email"
                   required
                 />
@@ -88,7 +91,8 @@ function Contact() {
                 </label>
                 <textarea
                   class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
-                  id="message"
+                  name="message"
+                  required
                 ></textarea>
               </div>
             </div>
