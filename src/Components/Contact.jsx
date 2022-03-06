@@ -14,7 +14,7 @@ function Contact() {
           <div className="text-center w-11/12 md:w-3/6 -mx-3">
             <p className="text-sm font-medium md:text-base">
               No momento estou procurando por oportunidades na area de
-              desenvolvimento web, minha caixa de entrada está sempre aberta. Se
+              desenvolvimento web, minha caixa de email está sempre aberta. Se
               você tem uma pergunta ou apenas quer dizer oi, vou tentar responder
               da melhor forma.
             </p>
