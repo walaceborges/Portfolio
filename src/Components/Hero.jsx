@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="text-center w-full h-full uppercase">
       <section className="bg-[#ffe742] text-center flex justify-center items-center w-full py-44">
-        <div className="">
+        <div id="home">
           <h1 className="text-black md:text-10xl md:leading-none sm:text-8xl font-extrabold text-7xl">
             Walace
           </h1>

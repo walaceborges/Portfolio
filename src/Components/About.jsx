@@ -16,7 +16,7 @@ function About() {
             </h2>
             <hr className='w-2/3 border-separate border-gray-800 md:w-11/12'></hr>
           </div>
-          <div className='pt-10 text-sm text-justify md:text-base'>
+          <div className='pt-10 text-sm text-justify md:text-base' id='about'>
             <p className=''>
             Olá, meu nome é <b>Walace</b> e gosto de desenvolver experiencias para o usuario. Meu interesse em desenvolvimento web começou em 2019, quando comecei a pesquisar como eram feitas as estruturas de paginas na internet, desde então, comecei a estudar sozinho <i>HTML e CSS</i> e logo após decidi cursar minha primeira faculdade na área de tecnologia
             </p>
@@ -41,10 +41,10 @@ function About() {
             Conecte-se comigo
             </p>
           <div className='pt-3 flex'>
-            <a href="https://github.com/walaceborges" target="_blank">
+            <a href="https://github.com/walaceborges" target="_blank" rel="noreferrer">
               <img className="w-16 pr-3"src={ gitHubImg } alt="github" />
             </a>
-            <a href="https://www.linkedin.com/in/walace-borges/" target="_blank">
+            <a href="https://www.linkedin.com/in/walace-borges/" target="_blank" rel="noreferrer">
               <img className="w-16 pl-3"src={ linkedinImg } alt="linkedin" />
             </a>
           </div>

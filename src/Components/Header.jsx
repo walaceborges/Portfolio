@@ -8,7 +8,7 @@ function Header() {
   return (
     <nav className="absolute top-0 w-full bg-rich-black border-gray-200 px-2 sm:px-4 py-6">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="#" className="flex">
+        <a href="home" className="flex">
           <span className="pl-2 md:pl-0 self-center text-2xl font-black font-mont-serrat whitespace-nowrap text-white">
             Wal<span className="text-[#D9E76C]">.</span>
           </span>
@@ -51,7 +51,7 @@ function Header() {
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-extrabold font-mont-serrat">
             <li>
               <a
-                href="#"
+                href="home"
                 className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 HOME
@@ -59,7 +59,7 @@ function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="about"
                 className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 ABOUT
@@ -67,7 +67,7 @@ function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="projects"
                 className="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 PROJECTS
@@ -75,7 +75,7 @@ function Header() {
             </li>
             <li>
               <a
-                href="#"
+                href="contact"
                 className="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 CONTACT
