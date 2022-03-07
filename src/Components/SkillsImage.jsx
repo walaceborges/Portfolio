@@ -15,40 +15,40 @@ function SkillsImage() {
       <p className='text-sm pb-2 md:text-base'>Aqui estão algumas tecnologias com as quais tenho estudado e trabalhado:</p> 
       <div className='flex pt-5 justify-between'>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200'>
-          <img className="w-12"src={ htmlImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>HTML5</h2>
+          <img className="xl:w-12 w-9"src={ htmlImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>HTML5</h2>
         </div>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200'>
-          <img className="w-12"src={ cssImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>CSS3</h2>
+          <img className="xl:w-12 w-9"src={ cssImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>CSS3</h2>
         </div>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200'>
-          <img className="w-12"src={ jsImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>JavaScript</h2>
+          <img className="xl:w-12 w-9"src={ jsImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>JavaScript</h2>
         </div>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200'>
-          <img className="w-12"src={ reactImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>React</h2>
+          <img className="xl:w-12 w-9"src={ reactImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>React</h2>
         </div>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200'>
-          <img className="w-12"src={ reduxImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>Redux</h2>
+          <img className="xl:w-12 w-9"src={ reduxImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>Redux</h2>
         </div>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200'>
-          <img className="w-12"src={ jestImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>Jest</h2>
+          <img className="xl:w-12 w-9"src={ jestImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>Jest</h2>
         </div>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200'>
-          <img className="w-12"src={ sqlImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>MySQL</h2>
+          <img className="xl:w-12 w-9"src={ sqlImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>MySQL</h2>
         </div>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200'>
-          <img className="w-12"src={ nodeImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>Node.js</h2>
+          <img className="xl:w-12 w-9"src={ nodeImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>Node.js</h2>
         </div>
         <div className='flex flex-col items-center hover:-translate-y-2 transition duration-200 '>
-          <img className="w-12"src={ typeScriptImg } alt="github" />
-          <h2 className='font-semibold text-center lg:text-xl font-titillium-web'>TypeScript</h2>
+          <img className="xl:w-12 w-9"src={ typeScriptImg } alt="github" />
+          <h2 className='font-semibold text-center text-xs xl:text-xl font-titillium-web'>TypeScript</h2>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import listResume from "../assets/images/list-resume.svg";
 
 function SideList() {
   return (
-    <div className="relative top-60 hidden md:block">
+    <div className="relative top-60 hidden xl:block">
       <div className="flex justify-end inset-0">
         <ul className="z-10 fixed h-0 pr-8">
           <li className="my-4">
@@ -14,7 +14,7 @@ function SideList() {
               target="_blank"
               rel="noreferrer"
             >
-              <img className="w-16 fill-[#243c5a]" src={listGitHub} alt="github" />
+              <img className="w-16" src={listGitHub} alt="github" />
             </a>
           </li>
           <li className="my-4">
