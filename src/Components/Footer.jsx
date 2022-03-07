@@ -9,7 +9,7 @@ function Footer() {
           {/* <a href="" class="hover:underline">
             Walace™
           </a> */}
-          . All Rights Reserved.
+          . Todos os direitos reservados.
         </span>
       </footer>
     </div>
