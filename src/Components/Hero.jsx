@@ -1,10 +1,12 @@
 import React from "react";
+import SideList from "./SideList";
 
 function Hero() {
   return (
-    <div className="text-center w-full h-full uppercase">
+    <div id="home" className="text-center w-full h-full uppercase">
+      <SideList />
       <section className="bg-[#ffe742] text-center flex justify-center items-center w-full py-44">
-        <div id="home">
+        <div>
           <h1 className="text-black md:text-10xl md:leading-none sm:text-8xl font-extrabold text-7xl">
             Walace
           </h1>
