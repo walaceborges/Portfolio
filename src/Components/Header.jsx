@@ -8,7 +8,7 @@ function Header() {
   return (
     <nav className="absolute top-0 w-full bg-rich-black border-gray-200 px-2 sm:px-4 py-6">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="home" className="flex">
+        <a href="#home" className="flex">
           <span className="pl-2 md:pl-0 self-center text-2xl font-black font-mont-serrat whitespace-nowrap text-white">
             Wal<span className="text-[#D9E76C]">.</span>
           </span>
