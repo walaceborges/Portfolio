@@ -17,3 +17,13 @@
   list-style-image: url(./assets/images/right-arrow-next-svgrepo-com\ \(1\).svg);
   font-size: 1.10rem;
 }
+
+@layer components {
+  html {
+    @apply scroll-smooth
+  }
+
+  .scroll-top-active {
+    @apply fixed bottom-2.5 md:right-8 right-3 flex items-center justify-center cursor-pointer hover:-translate-y-2 transition duration-200;
+  }
+}

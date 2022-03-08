@@ -1,4 +1,5 @@
 import React from "react";
+import ScrollTop from "../Helpers/ScrollTop";
 
 function Contact() {
   return (
@@ -109,6 +110,7 @@ function Contact() {
           </form>
         </div>
       </div>
+      <ScrollTop />
     </div>
   );
 }
