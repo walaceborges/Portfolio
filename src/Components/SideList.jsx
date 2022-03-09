@@ -2,6 +2,7 @@ import React from "react";
 import listGitHub from "../assets/images/github-with-circle-svgrepo-com.svg";
 import listLinkedin from "../assets/images/linkedin-svgrepo-com.svg";
 import listResume from "../assets/images/curriculum-svgrepo-com.svg";
+import resume from "../Resume/resume-walace.pdf"
 
 function SideList() {
   return (
@@ -28,11 +29,10 @@ function SideList() {
           </li>
           <li className="my-5">
             <a
-              href="https://github.com/walaceborges"
-              target="_blank"
-              rel="noreferrer"
+              href={resume}
+              download="walace-resume"
             >
-              <img className="w-16 transition ease-in-out delay-100 hover:scale-110 duration-300 hover:brightness-125" src={listResume} alt="github" />
+              <img className="w-16 transition ease-in-out delay-100 hover:scale-110 duration-300 hover:brightness-125" src={listResume} alt="resume" />
             </a>
           </li>
         </ul>
